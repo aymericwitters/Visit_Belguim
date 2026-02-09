@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Belgium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Discover Belgium</h1>
+    <p>Klik op een provincie om info te zien</p>
+</header>
+
+<main>
+    <div class="provincies">
+        <button onclick="toonInfo('Antwerpen')">Antwerpen</button>
+        <button onclick="toonInfo('Oost-Vlaanderen')">Oost-Vlaanderen</button>
+        <button onclick="toonInfo('West-Vlaanderen')">West-Vlaanderen</button>
+        <button onclick="toonInfo('Vlaams-Brabant')">Vlaams-Brabant</button>
+        <button onclick="toonInfo('Limburg')">Limburg</button>
+        <button onclick="toonInfo('Henegouwen')">Henegouwen</button>
+        <button onclick="toonInfo('Luik')">Luik</button>
+        <button onclick="toonInfo('Namen')">Namen</button>
+        <button onclick="toonInfo('Luxemburg')">Luxemburg</button>
+        <button onclick="toonInfo('Waals-Brabant')">Waals-Brabant</button>
+    </div>
+
+    <div id="info" class="info">
+        <p>Kies een provincie 👆</p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
